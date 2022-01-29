@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/marinojoey/blockchain_project_1#readme",
   "dependencies": {
-    "crypto-js": "^4.1.1"
+    "crypto-js": "^4.1.1",
+    "jayson": "^3.6.6"
   }
 }

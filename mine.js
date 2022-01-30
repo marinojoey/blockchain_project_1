@@ -55,7 +55,7 @@ function mine() {
     
             console.log(`previous block's hash: ` + block.previousHash)
     
-            setTimeout(mine, 1000)
+            setTimeout(mine, 1)
         }
     }
 

@@ -7,3 +7,5 @@ In the root folder `nodemon index` in your terminal.
 In a new terminal, cd into the scripts folder and either `node startMining` or `node stopMining` to start and stop the mining script. This script finds a nonce which when hashed will be less than the target difficulty.
 
 In order to change the target difficulty navigate to `mine.js` and adjust `TARGET_DIFFICULTY` to your liking. The lower the number the harder it will be. 
+
+EDIT: added dynamic difficulty adjustments to settle between 1 and 2 seconds

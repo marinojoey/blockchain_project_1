@@ -3,11 +3,11 @@ const SHA256 = require('crypto-js/sha256')
 class Block {
     constructor() {
         this.nonce = 0
-        this.timesStamp = Date.now()
+        this.timeStamp = Date.now()
         
     }
     hash() {
-        return SHA256(this.nonce + "" + this.timesStamp).toString()
+        return SHA256(this.nonce + "" + this.timeStamp).toString()
     }
 }
 
